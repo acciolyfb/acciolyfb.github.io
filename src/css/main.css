@@ -1,8 +1,21 @@
 @font-face {
-  font-family: Montserrat;
+  font-family: 'Montserrat Regular';
+  font-weight: normal;
   src: url(../fonts/montserrat/Montserrat-Regular.ttf)
 }
 
+font-face {
+  font-family: 'Montserrat Bold';
+  font-weight: normal;
+  src: url(../fonts/montserrat/Montserrat-Bold.ttf)
+}
+
+font-face {
+  font-family: 'Montserrat Thin';
+  font-weight: normal;
+  src: url(../fonts/montserrat/Montserrat-Thin.ttf)
+}
+
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat Regular', sans-serif;
 }
