@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var texts = ["Fullstack", "Front-End", "Back-End", "NodeJS", "ReactJS", "React Native"];
+  var texts = ["Desenvolvedor Fullstack", "Desenvolvedor Javascript", "UX/UI Designer"];
   var initial = 0;
   $('#changetext').text(texts[initial++]);
   setInterval(function() {
