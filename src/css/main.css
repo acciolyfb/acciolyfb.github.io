@@ -1,21 +1,28 @@
 @font-face {
-  font-family: 'Montserrat Regular';
-  font-weight: normal;
+  font-family: Montserrat;
+  font-weight: 400;
   src: url(../fonts/montserrat/Montserrat-Regular.ttf)
 }
 
 font-face {
-  font-family: 'Montserrat Bold';
-  font-weight: normal;
+  font-family: Montserrat;
+  font-weight: 700;
   src: url(../fonts/montserrat/Montserrat-Bold.ttf)
 }
 
 font-face {
-  font-family: 'Montserrat Thin';
-  font-weight: normal;
+  font-family: Montserrat;
+  font-weight: 100;
   src: url(../fonts/montserrat/Montserrat-Thin.ttf)
 }
 
 body {
-  font-family: 'Montserrat Regular', sans-serif;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  font-weight: 700;
 }
