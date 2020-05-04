@@ -1,28 +1,27 @@
 @font-face {
   font-family: Montserrat;
-  font-weight: 400;
+  font-weight: normal;
   src: url(../fonts/montserrat/Montserrat-Regular.ttf)
 }
 
 font-face {
   font-family: Montserrat;
-  font-weight: 700;
+  font-weight: bold;
   src: url(../fonts/montserrat/Montserrat-Bold.ttf)
 }
 
 font-face {
   font-family: Montserrat;
-  font-weight: 100;
+  font-weight: thin;
   src: url(../fonts/montserrat/Montserrat-Thin.ttf)
 }
 
-body {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  align-items: center;
+img {
+  width: 100%;
 }
 
-p {
+h1 {
+  font-family: Montserrat, sans-serif;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
 }
